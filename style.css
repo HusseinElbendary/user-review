@@ -38,7 +38,7 @@ body{
 	width: 697px;
     height: 656px;
 	position: absolute;
-	transform: translate(0%,8%);
+	
 	left:45vw;
 	/*margin:auto;*/
 }
@@ -84,5 +84,27 @@ body{
 	position: absolute;
 	top: 30%;
 	left: 22%;
+}
+@media only screen and (max-width: 400px) {
+  .container{
+  	transform: scale(0.5);
+  	position: relative;
+  	left: -42.5%;
+  	top:-40vw;
+  }
+  .info{
+  	font-size:0.75em; 
+	top: 45vh;
+    left: 10%;
+    width: 75%;
+  }
+  #curves{
+  	transform: scale(0.7);
+	bottom: -5%;
+    left: -25%;
+  }
+  .title,.Name{
+  	display: block;
+  }
 }
 
