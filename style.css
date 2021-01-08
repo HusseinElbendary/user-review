@@ -1,6 +1,7 @@
 body{
 	/*background-color: #888888;*/ /*just for color differtiation*/
 	background-color: white;
+	margin:0px;
 }
 
 body{
@@ -31,6 +32,18 @@ body{
 	display: inline;
 	font-size: 0.75em;
 }
+
+.container{
+	/*display: flex;*/
+	width: 697px;
+    height: 656px;
+	position: absolute;
+	transform: translate(0%,8%);
+	left:45vw;
+	/*margin:auto;*/
+}
+
+
 .sliderButtons{
 	display: inline;
 	background-color: white;
@@ -38,9 +51,9 @@ body{
 	padding:0px 10px; 
 	padding-bottom: 5px;
 	position: absolute;
-	z-index: 2;
-	bottom:5%;
-	right:35%;
+	z-index: 1;
+	top:584px;
+	right:460px;
 
 }
 .sliderButtons img{
@@ -50,8 +63,8 @@ body{
 #userPic{
 	z-index: 1;
 	position: absolute;
-	top: 10%;
-	right: 8%;
+	top: 65px;
+	right: 90px;
 	border-radius: 10px;
 	box-shadow: 0px 40px 25px -35px;
 }
@@ -59,7 +72,7 @@ body{
 	z-index: 0;
 	position: absolute;
 	top: 0px;
-	right: 20px;
+	right: 0px;
 }
 #curves{
 	position: fixed;
@@ -67,7 +80,7 @@ body{
 	left: 0%;
 }
 #quotes{
-	z-index: 0;
+	/*z-index: 0;*/
 	position: absolute;
 	top: 30%;
 	left: 22%;
