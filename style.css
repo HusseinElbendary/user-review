@@ -82,8 +82,8 @@ body{
 #quotes{
 	/*z-index: 0;*/
 	position: absolute;
-	top: 30%;
-	left: 22%;
+	top: -18%;
+   	left: 16%;
 }
 @media only screen and (max-width: 400px) {
   .container{
@@ -106,5 +106,9 @@ body{
   .title,.Name{
   	display: block;
   }
+  #quotes{
+	top: -10%;
+   	left: 16%;
+}
 }
 
