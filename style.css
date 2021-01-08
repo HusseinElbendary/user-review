@@ -1,0 +1,75 @@
+body{
+	/*background-color: #888888;*/ /*just for color differtiation*/
+	background-color: white;
+}
+
+body{
+	font-size: 32px;
+}
+.UserReview{
+	font-family: Inter;
+}
+.info{
+	position: absolute;
+	z-index: 2;
+	color: hsl(240, 38%, 20%);
+	top:35%;
+	left:16%;
+	width: 40%;
+}
+.review{
+	font-weight: 500;
+}
+.Name{
+	font-weight: 700;
+	display: inline;
+	font-size: 0.75em;
+}
+.title{
+	font-weight: 700;
+	color: hsl(240, 18%, 77%);
+	display: inline;
+	font-size: 0.75em;
+}
+.sliderButtons{
+	display: inline;
+	background-color: white;
+	border-radius: 50px;
+	padding:0px 10px; 
+	padding-bottom: 5px;
+	position: absolute;
+	z-index: 2;
+	bottom:5%;
+	right:35%;
+
+}
+.sliderButtons img{
+	margin: 0px 10px;
+	cursor: pointer;
+}
+#userPic{
+	z-index: 1;
+	position: absolute;
+	top: 10%;
+	right: 8%;
+	border-radius: 10px;
+	box-shadow: 0px 40px 25px -35px;
+}
+#pattern{
+	z-index: 0;
+	position: absolute;
+	top: 0px;
+	right: 20px;
+}
+#curves{
+	position: fixed;
+	bottom:0%;
+	left: 0%;
+}
+#quotes{
+	z-index: 0;
+	position: absolute;
+	top: 30%;
+	left: 22%;
+}
+
